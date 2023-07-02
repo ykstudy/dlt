@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import Chart from './components/Chart.vue'
+import DltChart from './components/DltChart.vue'
+import SsqChart from './components/SsqChart.vue'
 </script>
 
 <template>
-  <Chart :width="800" :height="600" />
+<!--  <DltChart :width="1000" :height="800" />-->
+  <SsqChart :width="1000" :height="800" />
 </template>
 
 <style scoped>
